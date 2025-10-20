@@ -81,6 +81,6 @@ print(num_zeros)
 print('\n------ZADANIE 2.19------\n')
 L = [7, 24, 356, 4, 89]
 blocks = [str(x).zfill(3) for x in L]
-result = "".join(blocks)
+result = ", ".join(blocks)
 
 print(result)
