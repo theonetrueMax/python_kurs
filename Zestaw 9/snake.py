@@ -83,7 +83,7 @@ def move_snake():
 
     new_head = ((x + dx) % GRID_W, (y + dy) % GRID_H)
 
-    # ruch wstecz → koniec
+    # ruch wstecz - koniec
     if len(snake) > 1 and new_head == snake[1]:
         return False
 
@@ -171,4 +171,5 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
 print("GAME OVER. SCORE =", score)
